@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('./assets/sunset.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px; 
+}
+
+.card {
+    background: #1e1e1e;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em; 
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 16px; 
+    width: calc(100% - 100px);
+}
+
+input.search-bar::placeholder {
+    color: #ccc; 
+}
+
+button:hover {
+    background: #7c7c6b;
+}
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.humidity {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.wind {
+    font-size: 1.3rem;
+}
+
+.cloud {
+    color: deepskyblue;
+}
+
+.humi {
+    color:darkorange;
+}
+
+.win {
+    color:#6099d6;
+}
+
+.city {
+    color: #fe9c10;
+}
